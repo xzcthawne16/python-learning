@@ -1,47 +1,47 @@
-#元祖基本操作 tuple 元素可以重复,有序,但是不可以修改
-# t1=(1,2,3,4,5,6,7,8,9)
-#
-# print(t1)
-# print(type(t1))
-#
-# #索引访问
-# print(t1[0])
-# print(t1[-1])
-# #切片
-# print(t1[0:5:1])
-#
-# #统计元素的个数
-# print(t1.count(1))
-#
-# #index() 获取元素的索引
-# print(t1.index(4))
-#
-# #元组中定义一个元素的时候需要在最后加一个,
-# t3=(1,)
-# print(t3)
-# print(type(t3))
-#
-# t4=(1)
-# print(t4)
-# print(type(t4))
-#
-# #组包和解包
-# #组包
-# t1=(1,2,3,4,5,6,7,8,9)
-# t2=10,9,8,7,6,5,4,3,2,1
-#
-# print(t1)
-# print(t2)
-#
-# #解包
-# a,b,c,d,e,f,g,h,i=t1
-# print(a,b,c,d,e,f,g,h,i)
-#
-# #*扩展解包 *解包所有剩余元素
-# first,second,*other,last=t1
-# print(first,second)
-# print(other)
-# print(last)
+# 元祖基本操作 tuple 元素可以重复,有序,但是不可以修改
+t1=(1,2,3,4,5,6,7,8,9)
+
+print(t1)
+print(type(t1))
+
+#索引访问
+print(t1[0])
+print(t1[-1])
+#切片
+print(t1[0:5:1])
+
+#统计元素的个数
+print(t1.count(1))
+
+#index() 获取元素的索引
+print(t1.index(4))
+
+#元组中定义一个元素的时候需要在最后加一个,
+t3=(1,)
+print(t3)
+print(type(t3))
+
+t4=(1)
+print(t4)
+print(type(t4))
+
+#组包和解包
+#组包
+t1=(1,2,3,4,5,6,7,8,9)
+t2=10,9,8,7,6,5,4,3,2,1
+
+print(t1)
+print(t2)
+
+#解包
+a,b,c,d,e,f,g,h,i=t1
+print(a,b,c,d,e,f,g,h,i)
+
+#*扩展解包 *解包所有剩余元素
+first,second,*other,last=t1
+print(first,second)
+print(other)
+print(last)
 
 
 #小练习
